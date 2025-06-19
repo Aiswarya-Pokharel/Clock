@@ -30,7 +30,6 @@ function update(){
   var months = ["January", "February", "March","April", "May", "June", "July", "August", "Septeber", "November", "December"]
 document.getElementById("day").innerHTML = (week[now.getDay()] + " " + months[now.getMonth()] + " " + now.getDate() + " " + now.getFullYear());
 }
-// var inter = setInterval(update,400);
 update();
 setInterval(update,1000);
 
